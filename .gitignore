@@ -1,0 +1,25 @@
+# Local
+.DS_Store
+*.local
+*.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Deps
+/node_modules
+/.pnp
+.pnp.js
+
+# Production
+/build
+/dist
+
+# Testing
+/coverage
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
